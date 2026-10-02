@@ -1,0 +1,20 @@
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: liver-histo-ai:latest
+    ports:
+      - "127.0.0.1:8000:8000"  # localhost only: the API has no authentication
+    volumes:
+      - ../data:/app/data
+      - ../results:/app/results
+      - ../checkpoints:/app/checkpoints
+    environment:
+      - PYTHONUNBUFFERED=1
+      - LIVER_HISTO_DATA_ROOT=/app/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
