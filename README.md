@@ -3,6 +3,19 @@
 # Liver-Histo-AI
 
 **Tile-based histopathology feature extraction, graph deep learning, and multi-omics fusion for H&E whole-slide images of hepatocellular carcinoma (HCC) and other primary liver cancers.**
+<img width="2494" height="1508" alt="fig20_real_stain_normalization" src="https://github.com/user-attachments/assets/e02ef2ef-4def-4fe2-828a-a19f053c5b6d" />
+<img width="2545" height="1659" alt="fig19_real_nuclei_segmentation" src="https://github.com/user-attachments/assets/c2ce284d-009f-44d9-8240-06a6d65c8be6" />
+<img width="2628" height="1536" alt="fig21_real_features_domain_gap" src="https://github.com/user-attachments/assets/8ad4c18d-e19f-4cc8-a330-0f10d3751df9" />
+<img width="2078" height="1202" alt="fig22_graph_mil_attention" src="https://github.com/user-attachments/assets/dae7ac23-7c71-49fb-bdcb-8999e13d7293" />
+<img width="1590" height="1081" alt="fig09_feature_importance" src="https://github.com/user-attachments/assets/7cd68b71-926b-4877-9768-43c48027b8d4" />
+<img width="1924" height="1397" alt="fig12_grade_gallery" src="https://github.com/user-attachments/assets/d733efc6-8549-4ef2-82c8-3ecfd2211285" />
+<img width="2138" height="1536" alt="fig13_cell_graph" src="https://github.com/user-attachments/assets/55112519-56a1-4694-af8f-15d6d61acd92" />
+<img width="2668" height="1614" alt="fig15_nuclear_shape_chromatin" src="https://github.com/user-attachments/assets/d450e664-1cb1-424b-adc5-9fd275705de2" />
+<img width="2173" height="1698" alt="fig06_stain_normalization" src="https://github.com/user-attachments/assets/159684de-f4bc-4016-af03-1593e9f2cc57" />
+<img width="2379" height="1995" alt="fig16_tumor_interface" src="https://github.com/user-attachments/assets/99989e2c-4710-4d7d-bd5a-a6ac41ec0a3b" />
+<img width="3009" height="1999" alt="fig17_feature_landscape" src="https://github.com/user-attachments/assets/96b311dc-a7ad-40d9-8240-3deb14291efd" />
+
+
 
 [![CI](https://github.com/<you>/liver-histo-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/<you>/liver-histo-ai/actions)
 ![Python](https://img.shields.io/badge/python-3.10%20|%203.11-blue)
